@@ -30,9 +30,6 @@
                 </li>
               <% if user_signed_in? %>
                 <li>
-                  <%= link_to 'マイページ', user_path(current_user.id) %>
-                </li>
-                <li>
                   <%= link_to users_path, class: 'nav-link text-light' do %>
                     <i class="fas fa-users"></i>
                      Users
